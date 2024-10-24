@@ -13,6 +13,10 @@ public:
     double getArea() {
         return 3.14 * radius * radius;
     }
+    void printAllData() {
+        cout << "Длина окружности: " << getLength() << endl;;
+        cout << "Площадь окружности: " << getArea();
+    }
 };
 int main()
 {
